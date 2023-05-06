@@ -8,6 +8,6 @@ def catch_all(path):
     return send_from_directory("../client/dist", path)
 
 
-@app.route("/api/test")
+@app.route("/api/message")
 def test():
-    return "Hello Flask!"
+    return "Hello from Flask!"

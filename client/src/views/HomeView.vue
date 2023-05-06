@@ -1,11 +1,5 @@
-<script lang="ts">
+<script lang="ts" setup>
 import HelloVue from '@/components/HelloVue.vue';
-
-export default {
-  components: {
-    HelloVue
-  }
-}
 </script>
 
 <template>
